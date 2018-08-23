@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="fluentd_tracker.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+	<!-- 	<script type="text/javascript">	
+		    var minner = _FTracker || []; //Initialize FluentdTracker
+		    minner.push({
+		        // 'sendConsoleErrors' : true,
+		        'tag' : 'VivaColombiaManager',
+		    });
+		</script> -->
+	</head>
+	<body>
+			<!-- tag -->
+			<label> Message </label>
+			<input type="text" id="message"/>
+			<br>
+			<br>
+			<!-- log -->
+			<label> Host </label>
+			<input type="text" id="host"/>
+			<br>
+			<br>
+			<button id="send">Send</button>
+		<br>
+		<br>
+		<form legend="test">
+			<label> Server Response: </label>
+			<br>
+			<textarea id="response"></textarea>
+		</form>
+	</body>
+</html>
